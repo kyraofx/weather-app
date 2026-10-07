@@ -1,10 +1,10 @@
 # Weatherly
 
-Weatherly is a clean, responsive weather app that shows current conditions for cities around the world. It uses Open-Meteo for location search and live weather data.
+Weatherly is a clean, responsive weather app that shows current conditions for cities around the world using live data from Open-Meteo.
 
-## Live demo
+## Live Demo
 
-[View Weatherly on GitHub Pages](https://kyraofx.github.io/weather-app/)
+[View Weatherly](https://kyraofx.github.io/weather-app/)
 
 ## Features
 
@@ -14,18 +14,14 @@ Weatherly is a clean, responsive weather app that shows current conditions for c
 - Responsive layout for desktop and mobile
 - Accessible form labels and live status updates
 
-## Deployment
-
-The app is deployed directly from the `main` branch with GitHub Pages. No build step or external dependencies are required.
-
-## Built with
+## Built With
 
 - HTML
 - CSS
 - Vanilla JavaScript
 - [Open-Meteo Weather API](https://open-meteo.com/)
 
-## Project structure
+## Project Structure
 
 ```text
 weather-app/
@@ -34,3 +30,23 @@ weather-app/
 ├── script.js
 └── README.md
 ```
+
+## Run Locally
+
+No build step or package installation is required.
+
+1. Clone the repository:
+
+   ```bash
+   git clone https://github.com/kyraofx/weather-app.git
+   ```
+
+2. Open the project folder:
+
+   ```bash
+   cd weather-app
+   ```
+
+3. Open `index.html` in your browser.
+
+An internet connection is required to retrieve live weather data from Open-Meteo.
